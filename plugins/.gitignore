@@ -1,0 +1,33 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Node
+node_modules/
+
+# PHP dependencies
+vendor/
+
+# WordPress generated files
+uploads/
+cache/
+
+# WordPress local configuration
+wp-config.php
+
+# Temporary files
+*.tmp
+*.bak
