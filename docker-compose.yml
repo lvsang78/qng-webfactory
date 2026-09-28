@@ -16,6 +16,7 @@ services:
       - ./themes:/var/www/html/wp-content/themes
       - ./plugins:/var/www/html/wp-content/plugins
       - ./factory/themes/qng-base:/var/www/html/wp-content/themes/qng-base
+      - ./factory/plugins/qng-core:/var/www/html/wp-content/plugins/qng-core
     depends_on:
       - db
 
