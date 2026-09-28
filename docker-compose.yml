@@ -15,6 +15,7 @@ services:
       - wordpress_data:/var/www/html
       - ./themes:/var/www/html/wp-content/themes
       - ./plugins:/var/www/html/wp-content/plugins
+      - ./factory/themes/qng-base:/var/www/html/wp-content/themes/qng-base
     depends_on:
       - db
 
